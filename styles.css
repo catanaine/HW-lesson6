@@ -1,0 +1,74 @@
+:root {
+    font-size: 24px;
+}
+.lesson { border: 1px solid rgb(88, 71, 71) ;
+    font-size: 2rem;
+    margin: 8px 32px 32px 16px;
+    padding: 32px 16px 32px 16px;
+}
+.class {
+    font-size: 12px;
+}
+.class1 {
+    color: chartreuse; 
+    font-size: 2em;
+}
+.class2 {
+    color: darkmagenta;
+    font-size: 2rem;
+}
+.class3 {
+    color: aqua;
+    font-size: 2em;
+}
+
+#id75 {
+    border: 1px dashed black;
+    height: 75px;
+    width: 75px;
+}  
+#id75:hover {
+    border: 1px dashed red; }
+
+#id50 {
+    border: 5px dotted chocolate;
+    height: 50px;
+    width: 250px;
+          
+}
+#copil {
+    border: 5px double crimson;
+    line-height: 50%;
+    width: 25%;
+    box-sizing: border-box;
+}
+main {
+    p:hover{
+        color: chartreuse;
+    }
+    
+    p:nth-child(3){
+        color: crimson;
+    }
+
+    p:last-child {
+        color: blueviolet;
+    }
+}
+
+.pseudoElement{
+    p::after{
+    content: ' seteaza dupa';
+    }
+}
+.pseudoElement1{
+    p::before{
+    content: 'seteaza pana ';}
+}
+
+
+.border {
+    border: solid 1px ;
+    height: 75vh;
+    width: 75vw;
+}
